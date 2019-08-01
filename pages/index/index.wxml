@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="list">
+	<view class="list-item">
+		<navigator url="/pages/request/request">网络请求</navigator>
+	</view>
+	<view class="list-item">
+		<navigator url="/pages/audio/audio">播放音乐</navigator>
+	</view>
+  <view class="list-item">
+		<navigator url="/pages/prompt/prompt">弹窗组件的调用</navigator>
+	</view>
+  <view class="list-item">
+		<navigator url="/pages/drag-div/drag-div">移动div</navigator>
+	</view>
+</view>

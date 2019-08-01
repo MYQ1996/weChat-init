@@ -1,0 +1,14 @@
+<view class="wx-popup" hidden="{{flag}}" bindtap='_success'>
+  <view class='popup-container'>
+    <image wx:if="{{nowImg===0}}" mode="aspectFill" src="./image/good-1.png"></image>
+    <image wx:if="{{nowImg===1}}" mode="aspectFill" src="./image/good-2.png"></image>
+    <image wx:if="{{nowImg===2}}" mode="aspectFill" src="./image/good-3.png"></image>
+    <image wx:if="{{nowImg===3}}" mode="aspectFill" src="./image/good-4.png"></image>
+    <!-- <view class="wx-popup-title">{{title}}</view>
+    <view class="wx-popup-con">{{content}}</view>
+    <view class="wx-popup-btn">
+      <text class="btn-no" bindtap='_error'>{{btn_no}}</text>
+      <text class="btn-ok" bindtap='_success'>{{btn_ok}}</text>
+    </view> -->
+  </view>
+</view>

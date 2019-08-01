@@ -1,0 +1,75 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.7",
+	"appid": "wxc3d33b4ffb0753f2",
+	"projectname": "%E5%90%AF%E5%BE%B7%E6%B8%B8%E6%88%8Fdemo",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": 1,
+					"name": "音频",
+					"pathName": "pages/audio/audio",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "请求",
+					"pathName": "pages/request/request",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/drag-div/drag-div",
+					"pathName": "pages/drag-div/drag-div",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

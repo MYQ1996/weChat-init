@@ -1,0 +1,4 @@
+<!--pages/request/request.wxml-->
+<view class="userinfo">
+    <button bindtap="showPopup">请求</button>
+  </view>
