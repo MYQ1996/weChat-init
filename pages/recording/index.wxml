@@ -1,0 +1,6 @@
+<!--wxml-->
+<button bindtap='onStart'>开始</button>
+<button bindtap='onPause'>暂停</button>
+<button bindtap='onResume'>继续</button>
+<button bindtap='onEnd'>结束</button>
+<button bindtap='onPlay'>播放</button>

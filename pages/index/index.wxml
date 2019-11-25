@@ -12,4 +12,7 @@
   <view class="list-item">
 		<navigator url="/pages/drag-div/drag-div">移动div</navigator>
 	</view>
+  <view class="list-item">
+		<navigator url="/pages/recording/index">录音</navigator>
+	</view>
 </view>

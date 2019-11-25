@@ -63,7 +63,7 @@ Component({
           nowImg: count
         })
 
-      }, 130)
+      }, 160)
     },
     //展示弹框
     showPopup() {

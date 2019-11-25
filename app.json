@@ -4,7 +4,10 @@
     "pages/prompt/prompt",
     "pages/audio/audio",
     "pages/request/request",
-    "pages/drag-div/drag-div"
+    "pages/drag-div/drag-div",
+    "pages/turn-page/trun-page",
+    "pages/recording/index",
+    "pages/canvas/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

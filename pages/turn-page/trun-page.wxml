@@ -1,0 +1,10 @@
+<scroll-view class="scroll-box" scroll-x scroll-with-animation
+  scroll-into-view="{{toView}}"
+  bindtouchstart="touchStart"
+  bindtouchend="touchEnd">
+    <view wx:for="{{list}}" wx:key="{{item}}" class="card-box" id="card_{{index}}">
+      <view class="card" wx:for="{{item}}" wx:for-item="xxxx" wx:key="">
+        <text>{{xxxx.name}}</text>
+      </view>
+    </view>
+</scroll-view>
